@@ -1,0 +1,21 @@
+---
+title: "Hilink"
+date: "2025-02-07"
+tags: ["NextJS", "TailwindCSS", "Frontend"]
+imageURL: "https://hbonvnnjvcfockqfujzr.supabase.co/storage/v1/object/public/Hilink.//preview.png"
+description: An eCommerce travel application to explore camping sites around the world.
+githubURL: "https://github.com/Cho-Hei/Hilink."
+demoURL: "https://hilink.choheitoby.com/"
+---
+
+## Hilink
+
+Travel application to book campsites in different locations.
+
+## Features
+
+Visitors can browse various campsites and book them. They can select how many nights they want to stay and how many people will be there. The cost of the whole trip will be calculated according to these factors and reflected in the total cost.
+
+After clicking book camp, visitors will be redirected to the payment gateway where Stripe will handle and collect payment. This will update the booking system on Stripe and the backend to store information about the customer. The application will redirect back with a message about whether the payment is successful.
+
+A webhook API is implemented where it is possible to monitor payment events that go through Stripe. This can update the backend and send out receipts to customers.
